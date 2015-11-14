@@ -1,0 +1,28 @@
+[33mcommit c96781f0d31ced7da09185134025e81df8bad0a7[m
+Merge: 28b7d9a 778289a
+Author: littlekocka <littlekocka@gmail.com>
+Date:   Sat Nov 14 09:55:51 2015 +0000
+
+    Merge branch 'master' of https://github.com/kocka335/message-board
+    
+    Conflicts:
+    	Gemfile.lock
+    	config/secrets.yml
+
+[33mcommit 28b7d9a6fd00b20f3809a267f51d58c32dbf11af[m
+Author: littlekocka <littlekocka@gmail.com>
+Date:   Sat Nov 14 09:22:11 2015 +0000
+
+    second commit
+
+[33mcommit d65a1a7e3c0b5322ce6216ccf7f9e3254c9c60b8[m
+Author: littlekocka <littlekocka@gmail.com>
+Date:   Sat Nov 14 09:06:37 2015 +0000
+
+    first commit
+
+[33mcommit 778289af44cc735730b2051c18cd3c8f52361a3d[m
+Author: littlekocka <littlekocka@gmail.com>
+Date:   Thu Nov 12 03:15:39 2015 +0000
+
+    first commit
