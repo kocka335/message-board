@@ -13,9 +13,9 @@
 </div>
 
 
-<form class="form-horizontal">
 
-<%= form_for(Message.new) do |f| %>
+
+<%= form_for(Message.new, html: {class: "form-horizontal"}) do |f| %>
 
  <div class="form-group">
  <label class="col-sm-1"><span class="label label-default">名前</span></label>
@@ -35,4 +35,3 @@
 <% end %>
 </div>
 
-</form>
