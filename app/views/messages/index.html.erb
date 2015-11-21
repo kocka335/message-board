@@ -18,12 +18,12 @@
 <%= form_for(Message.new) do |f| %>
 
  <div class="form-group">
- <label class="col-sm-1">名前:</label>
+ <label class="col-sm-1"><span class="label label-default">名前</span></label>
  <div class="col-sm-11"> <%= f.text_field :name %></div>
 </div>
 
  <div class="form-group">
-<label class="col-sm-1">内容:</label>
+<label class="col-sm-1"><span class="label label-default">内容</span></label>
    <div class="col-sm-11"><%= f.text_area :body %></div>
 
  <div class="form-group">
