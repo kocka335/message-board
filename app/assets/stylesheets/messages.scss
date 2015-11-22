@@ -2,7 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .field_with_errors{
-  
+  width: 100%;
   display: inline-block;
   border: 1px solid #f00;
+}
+
+#submit {
+  padding-left: 30px;
+  
+}
+
+.col-sm-1 {
+  font-size: 20px;
+  
+}
+
+.label {
+  
+}
+.col-sm-11{
+  padding: 5px;
 }

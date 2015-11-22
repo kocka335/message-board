@@ -12,34 +12,7 @@
   </div>
 </div>
 
-<div class="form-group">
-<%= form_for(@message) do |f| %>
-  <% if @message.errors.present? %>
-    <div class="alert alert-danger">
-      <%= alert %>
-      <ul>
-        <% @message.errors.full_messages.each do |full_message| %>
-          <li>
-            <%= full_message %>
-          </li>
-        <% end %> 
-      </ul>
-    </div>
-  <% end %>
- 
-  
-  名前:
-  <div class="form-group">
-  <%= f.text_field :name %>
-  <div></div>  
-  
-  
-  内容:
-  <div class="form-group">
-  <%= f.text_area :body %>
-  </div>
-  <%= f.submit %>
-  
-<% end %>
 
-</div>
+
+<% #部分テンプレートを読み込んでいる %>
+<%= render 'form' %>
